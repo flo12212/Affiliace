@@ -1,0 +1,31 @@
+
+
+.help-input {
+    padding-left: 40%;
+    padding-right: 40%;
+    justify-content: center;
+}
+
+
+.help-input h1 {
+    width: 400px;
+    color: rgb(46, 46, 136);
+    margin-bottom: 0;
+}
+
+.help-input form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.help-input form .question {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+    margin-right: 10px;
+}

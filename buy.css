@@ -1,0 +1,624 @@
+body {
+  font-family: DM Sans,Roboto,sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+
+@media only screen and (min-width: 1024px) {
+.top {
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.left {
+  padding-left: 5%;
+  width: 45%;
+  padding-right: 10px;
+}
+
+
+
+.details button {
+  float: right;
+}
+
+.open-button:hover {
+  border-color: #6b6b6b;
+  color: rgb(0, 0, 0);
+}
+
+.right {
+  padding-left: 10px;
+  padding-right: 5%;
+  width: 40%;
+}
+
+.container {
+  width: 700px;
+}
+
+.payment {
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 7%;
+  width: 100%;
+ }
+
+ .content {
+  width: 110%;
+  height: 750px;
+ }
+
+ .paypal {
+  width: 100%;
+  padding-top: 200px;
+  padding-left: 15px;
+ }
+ 
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table td {
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding: 8px;
+  text-align: center;
+}
+
+.product-table .thumbnail {
+  max-height: 165.5px;
+  max-width: 150px;
+}
+
+.product-table .thumbnail img {
+  max-height: 165.5px;
+  max-width: 150px;
+}
+
+.titel {
+  text-align: left;
+  width: 150px;
+}
+
+.price {
+  width: 50px;
+}
+
+.pricing {
+  margin-right: 50px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 15px;
+  width: 325px;
+}
+
+.part {
+  padding: 10px 15px 10px 15px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+
+.last-part {
+  padding: 10px 15px 10px 15px;
+}
+
+.buy {
+  background-color: #225AEA;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 20px 5px 20px;
+}
+
+    .thumbnail img {
+        width: 150px;
+    }
+
+   
+    .ammount {
+      align-items: center; /* Add this line to vertically center the content */
+      height: 170.5px;
+    }
+
+    .amount {
+      align-items: center; /* Add this line to vertically center the content */
+      height: 170.5px;
+    }
+
+    .ammount form input {
+      font-size: 30px;
+      width: 25px;
+      background-color: white;
+      border-radius: 0px;
+      color: black;
+    }
+
+    .ammount form input:hover {
+      width: 25px;
+      cursor: pointer;
+      font-size: 30px;
+      background-color: white;
+      border-radius: 0px;
+      color: black;
+    }
+
+.fix-span {
+  height: 200px;
+}
+
+.circle-selector {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Style for the modal content */
+.modal-content {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 500px;
+  height: 550px;
+  border-radius: 5px;
+}
+
+/* Style for the close button */
+.close-button {
+  text-align: right;
+}
+
+/* Style for the close button icon */
+.close-button span {
+  cursor: pointer;
+}
+
+
+.flex22 {
+  display: flex;
+}
+
+
+.blue {
+  margin-top: 5px;
+  color: #225AEA;
+}
+
+.block {
+  width: 220px;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.ammount-input {
+  width: 15px;
+}
+
+
+.ammount div {
+  padding: 0px 5px 0px 5px;
+}
+
+.amount .submit {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  padding: 2px;
+  width: 43px;
+  height: 21px;
+  transition: .1s linear;
+}
+
+.minus-btn,
+.plus-btn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.minus-btn:hover,
+.plus-btn:hover {
+    background-color: #e0e0e0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-box input[type="text"],
+.input-box select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+ 
+button.open-button {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  padding: 5px 0 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: #ffffff;
+  background-color: #a9bff5;
+}
+.detail-btn {
+  width: 40%;
+  background-color: #ff514b;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .2s linear;
+  outline: none;
+}
+
+.detail-btn:focus {
+  outline: none; /* Remove the outline on focus */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+
+  .top {
+    text-align: center;
+    font-size: 20px;
+    height: 0;
+  }
+  
+  #icon {
+    margin-top: 35px;
+    color: #afafaf;
+  }
+  
+  .left {
+    width: 100%;
+    
+  }
+
+  .product-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 25px;
+    border-top: 1px solid gray;
+    
+  }
+
+  #div1 {
+    margin: 0;
+
+  }
+
+  .payment {
+    align-items: center;
+    padding-top: 25px;
+    margin-left: 5%;
+    width: 95%;
+   }
+
+   .details {
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .details button {
+    float: right;
+    float: top;
+  }
+  
+  .open-button:hover {
+    border-color: #6b6b6b;
+    color: rgb(0, 0, 0);
+  }
+  
+  .right {
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+  }
+  
+
+  .flex22 {
+    display: flex;
+    flex-direction: column-reverse;
+    border-top: 1px solid gray;
+  }
+
+  
+   .content {
+    margin-left: 5%;
+    width: 95%;
+    height: 600px;
+   }
+
+   #div2 {
+    margin: 0;
+   }
+  
+   .paypal {
+    width: 95%;
+    padding-top: 25px;
+   }
+   
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table td {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .product-table .thumbnail {
+    max-height: 115.5px;
+    max-width: 100px;
+  }
+  
+  .product-table .thumbnail img {
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    min-width: 50px;
+  }
+  
+  .titel {
+    text-align: left;
+    width: 200px;
+  }
+  
+  .price {
+    width: 50px;
+  }
+  
+  .pricing {
+    margin-top: 25px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 15px;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .part {
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+  }
+  
+  
+  .last-part {
+    padding: 10px 15px 10px 15px;
+  }
+  
+  .buy {
+    background-color: #225AEA;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+  }
+  
+     
+    .ammount {
+        height: 100%;
+        width: 95px;
+      }
+
+      .ammount .flex {
+        display: flex;
+      }
+  
+      .amount {
+        width: 195px;
+      }
+  
+      .ammount .flex form input {
+        font-size: 30px;
+        width: 25px;
+        background-color: white;
+        border-radius: 0px;
+        color: black;
+      }
+  
+      .ammount .flex form input:hover {
+        width: 25px;
+        cursor: pointer;
+        font-size: 30px;
+        background-color: white;
+        border-radius: 0px;
+        color: black;
+      }
+  
+  .fix-span {
+    height: 200px;
+  }
+  
+  .circle-selector {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  label {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  /* Style for the modal content */
+  .modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    height: 60%;
+    border-radius: 5px;
+  }
+  
+  /* Style for the close button */
+  .close-button {
+    text-align: right;
+  }
+  
+  /* Style for the close button icon */
+  .close-button span {
+    cursor: pointer;
+  }
+  
+  
+  .blue {
+    margin-top: 5px;
+    color: #225AEA;
+  }
+  
+  .block {
+    width: 220px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+  }
+  
+  .ammount-input {
+    width: 15px;
+  }
+  
+  
+  .ammount div {
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .amount .submit {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 2px;
+    width: 43px;
+    height: 21px;
+    transition: .1s linear;
+  }
+  
+  .minus-btn,
+  .plus-btn {
+      background-color: #f0f0f0;
+      border: none;
+      padding: 5px 10px;
+      font-size: 16px;
+      cursor: pointer;
+  }
+  
+  .minus-btn:hover,
+  .plus-btn:hover {
+      background-color: #e0e0e0;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0;
+  }
+  
+  .input-box {
+    margin-bottom: 15px;
+  }
+  
+  .input-box span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-box input[type="text"],
+  .input-box select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+   
+  button.open-button {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 5px 0 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #a9bff5;
+  }
+}

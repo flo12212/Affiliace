@@ -1,0 +1,42 @@
+.info {
+  margin-bottom: 20px;
+}
+
+.info > div {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.paypal-container,
+.credit-cart-container {
+  margin-bottom: 20px;
+}
+
+.credit-cart-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-cart-container form > div {
+  margin-bottom: 5px;
+}
+
+.credit-cart-container form input[type="text"],
+.credit-cart-container form input[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.credit-cart-container form input[type="submit"] {
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.credit-cart-container form input[type="submit"]:hover {
+  background-color: #00698C;
+}

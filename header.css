@@ -1,0 +1,401 @@
+/* General styles for all devices */
+body {
+  font-family: Arial, Helvetica, Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Styles for desktop and larger devices (min-width: 1024px) */
+@media only screen and (min-width: 724px) {
+  .header {
+    padding-top: 25px;
+    width: 100%;
+    background-color: #ffffff;
+    background-position: center;
+    padding-right: 8%;
+    padding-left: 8%;
+    box-sizing: border-box;
+  }
+
+
+  .navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 300px;
+    height: 50px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+
+  .circle {
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #225AEA;
+    text-align: center;
+    line-height: 40px;
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: -55px;
+    display: none;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+
+  .dropdown-menu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .dropdown-menu a:hover {
+    color: #225AEA;
+    background-color: #b5c9ff;
+  }
+
+  .circle:hover .dropdown-menu {
+    display: block;
+  }
+
+  .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-input {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 10px;
+  }
+
+  .search-btn {
+    width: 80px;
+    height: 40px;
+    background-color: #225AEA;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .cart-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .cart-logo {
+    width: 50px;
+    height: 40px;
+  }
+
+  .cart-count {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    right: 11px;
+  }
+
+  .cart-count-small {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    right: 16px;
+  }
+
+  .cart-content:hover {
+    cursor: pointer;
+  }
+
+  #language {
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+  }
+
+  /* Submit button styles */
+  input[type="submit"] {
+    width: 80px;
+    height: 40px;
+    background-color: #225AEA;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #language:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+
+  input[type="submit"]:hover {
+    background-color: #a9bff5;
+  }
+  
+  .fas {
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    font-size: 23px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for mobile devices (max-width: 767px) */
+@media (max-width: 768px) and (max-width: 1023px) {
+
+  ul {
+    padding: 0;
+  }
+
+  #box {
+    display: none;
+  }
+
+  .header {
+    width: 100%;
+    background-color: #ffffff;
+    background-position: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    height: 8%;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 0;
+    height: 40px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  nav {
+    flex: 1;
+  }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .circle {
+    position: relative;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #225AEA;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: -55px;
+    display: none;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+
+  .dropdown-menu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .dropdown-menu a:hover {
+    color: #225AEA;
+    background-color: #b5c9ff;
+  }
+
+  .circle:hover .dropdown-menu {
+    display: block;
+  }
+
+  .exception {
+    width: 100%;
+  }
+
+  .search-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-input {
+    width: 70%;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 5px;
+  }
+
+  .cart-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .cart-logo {
+    width: 25px;
+    height: 20px;
+  }
+
+  .cart-count {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: 5px;
+  }
+
+  .cart-count-small {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: 9px;
+  }
+
+  .cart-content:hover {
+    cursor: pointer;
+  }
+
+  #language {
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+  }
+
+  /* Submit button styles */
+  input[type="submit"] {
+    width: 75px;
+    height: 40px;
+    background-color: #225AEA;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  #language:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+
+  input[type="submit"]:hover {
+    background-color: #a9bff5;
+  }
+}

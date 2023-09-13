@@ -1,0 +1,11 @@
+
+$_SESSION['stars'] = 6;
+
+$_SESSION['min'] = 0;
+$_SESSION['max'] = 9999999;
+
+$_SESSION['noship'] = 9999999;
+
+unset($_SESSION['brand']);
+$_SESSION['condition'] = "new";
+$_SESSION['condition2'] = "used";

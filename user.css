@@ -1,0 +1,236 @@
+@media only screen and (min-width: 1024px) {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.big {
+    height: 500px;
+}
+
+.main {
+    padding-top: 150px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+h1 {
+    text-align: center;
+    color: #555;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+}
+div form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.submit {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    float: right;
+}
+.submit:hover {
+    background-color: #00698C;
+}
+
+div a {
+    color: #008CBA;
+    font-size: 14px;
+    text-decoration: none;
+}
+div a:hover {
+    text-decoration: underline;
+}
+
+
+.error {
+    position: fixed;
+    top: 15px;
+    left: 43%;
+    display: none;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(163, 214, 163);
+    text-align: center;
+    line-height: 100px;
+    font-size: 14px;
+}
+
+.far {
+    color: #757575; 
+    position: absolute; 
+    top: -38px; 
+    right: -5px
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .far {
+        color: #757575; 
+        position: absolute; 
+        font-size: 20px;
+        top: -37px; 
+        right: -0px
+    }
+
+    .search-btn {
+        width: 80px;
+        height: 40px;
+        background-color: #225AEA;
+        color: #ffffff;
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .search-input{
+        margin-top: 12px;
+        width: 70% !important;
+        height: 20px !important;
+        padding: 10px !important;
+        font-size: 20px !important;
+        border: 2px solid #ccc !important;
+        border-radius: 15px !important;
+        outline: none !important;
+        margin-right: 5px !important;
+    }
+
+    .search-input2 {
+        margin-top: 12px;
+        width: 70% !important;
+        height: 20px !important;
+        padding: 10px !important;
+        font-size: 20px !important;
+        border: 2px solid #ccc !important;
+        border-radius: 15px !important;
+        outline: none !important;
+        margin-right: 5px !important;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+    }
+    
+    .big {
+        height: 500px;
+    }
+    
+    .main {
+        padding-top: 150px;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    h1 {
+        text-align: center;
+        color: #555;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        margin-bottom: 5px;
+        color: #333;
+        font-size: 14px;
+    }
+    div form input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    .submit {
+        background-color: #008CBA;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+        float: right;
+    }
+    .submit:hover {
+        background-color: #00698C;
+    }
+    
+    div a {
+        color: #008CBA;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    div a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .error {
+        position: fixed;
+        top: 15px;
+        left: 15%;
+        display: none;
+        width: 250px;
+        height: 100px;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(163, 214, 163);
+        text-align: center;
+        line-height: 100px;
+        font-size: 14px;
+    }
+}

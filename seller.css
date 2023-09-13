@@ -1,0 +1,477 @@
+
+
+@media only screen and (min-width: 1024px) {
+.top {
+  padding-left: 5%;
+}
+
+
+.top button {
+  width: 100px;
+}
+.top button {
+  width: 80px;
+  color: #000000;
+  font-size: 15px;
+  background-color: white;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.left {
+  width: 664px;
+}
+
+.right {
+  width: 1233px;
+}
+
+.user-container {
+  margin-top: 110px;
+  margin-left: 25%;
+  width: 400px;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 0px;
+}
+
+.div {
+  color: #62646A;
+}
+
+
+.bottom-border {
+  margin-left: 25px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  display: grid;
+  place-items: center;
+  width: 350px;
+}
+
+.display-rewievs {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.logo1 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.star {
+  color: rgb(255, 199, 43);
+  font-size: 22px;
+}
+
+.user-info {
+  margin: 25px;
+}
+
+
+.product-container {
+  margin-left: 10%;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.product-container h1 {
+  padding-right: 600px;
+  margin-top: 0;
+}
+
+.product {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #d3d3d3;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Added to distribute space evenly */
+    word-wrap: break-word;
+}
+
+.product img {
+    max-height: 280px;
+    max-width: 280px;
+}
+
+.buy-button {
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: #225AEA;
+    color: white;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    transition: 0.3s;
+
+  }
+
+.buy-button:hover {
+  background-color: #dfe9ff!important;
+  color: #225AEA !important;
+
+}
+
+
+
+  button:hover {
+    cursor: pointer;
+    color: #225AEA;
+    background-color: #F2F6FF;
+}
+
+.blue {
+  color: #225AEA;
+}
+
+
+
+.rewiev-container {
+  display: inline-block;
+  width: 220px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+  }
+
+
+.rew-container {
+  display: flex;
+  width: 110%;
+  background-color: white;
+  background-position: center;
+  padding-top: 25px;
+  box-sizing: border-box; 
+  flex-wrap: wrap;
+}
+
+.rewiev {
+  padding-left: 10px;
+  max-height: 130px;
+  max-width: 200px;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+.rewiev::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.rewiev::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Round the corners of the scrollbar thumb */
+}
+
+.rewiev::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Set the color of the scrollbar thumb on hover */
+}
+
+
+
+.margin {
+  margin: 25px;
+}
+
+.flexbox1 {
+  padding-left: 10px;
+  width: 175px;
+}
+
+.flex3 {
+  display: flex;
+}
+
+#row2 {
+  display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+  .a {
+    display: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+  .bottom {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+    border-top: 1px solid gray;
+    background-color: white;
+  }
+  
+  .block {
+    padding-top: 20px;
+  }
+  
+  .fas {
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+  }
+
+  
+  .top button {
+    width: 50px;
+  }
+  .top button {
+    width: 80px;
+    color: #000000;
+    font-size: 15px;
+    background-color: white;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+  }
+  
+  
+  .flex3 {
+    display: flex;
+  }
+  
+  .left {
+    width: 100%;
+  }
+  
+  .right {
+    width: 100%;
+  }
+  
+  .user-container {
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 96%;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 0px;
+  }
+
+  .user-container2 {
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 1.5%;
+    width: 100%;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 0px;
+  }
+
+  
+  .div {
+    color: #62646A;
+  }
+  
+  
+  .bottom-border {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+  
+  .display-rewievs {
+    width: 90%;
+    margin-left: 10%;
+  }
+  
+  .logo1 {
+    width: 95%;
+    text-align: center;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .star {
+    color: rgb(255, 199, 43);
+    font-size: 22px;
+  }
+  
+  .user-info {
+    margin: 25px;
+  }
+  
+  
+  .product-container {
+    margin-left: 0px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .product-container h1 {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+  
+  .product {
+      width: 40%;
+      height: 320px;
+      border: 1px solid #d3d3d3;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; /* Added to distribute space evenly */
+      word-wrap: break-word;
+  }
+  
+  .product img {
+      max-height: 280px;
+      max-width: 280px;
+  }
+  
+  .buy-button {
+      height: 40px;
+      width: 80px;
+      border-radius: 15px;
+      background-color: #225AEA;
+      color: white;
+      padding: 12px 0;
+      border: 0;
+      border-radius: 20px;
+      outline: none;
+      margin-top: 10px;
+      transition: 0.3s;
+  
+    }
+  
+  .buy-button:hover {
+    background-color: #dfe9ff!important;
+    color: #225AEA !important;
+  
+  }
+  
+  
+  
+    button:hover {
+      cursor: pointer;
+      color: #225AEA;
+      background-color: #F2F6FF;
+  }
+  
+  .blue {
+    color: #225AEA;
+  }
+  
+  
+  
+  .rewiev-container {
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    }
+  
+  
+  .rew-container {
+    display: flex;
+    width: 110%;
+    background-color: white;
+    background-position: center;
+    padding-top: 25px;
+    box-sizing: border-box; 
+    flex-wrap: wrap;
+  }
+  
+  .rewiev {
+    padding-left: 10px;
+    max-height: 130px;
+    max-width: 200px;
+    overflow: auto;
+    overflow-wrap: break-word;
+  }
+  
+  .rewiev::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  .rewiev::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Round the corners of the scrollbar thumb */
+  }
+  
+  .rewiev::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the scrollbar thumb on hover */
+  }
+  
+  
+  
+  .margin {
+    
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .flexbox1 {
+    padding-left: 10px;
+    width: 175px;
+  }
+}

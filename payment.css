@@ -1,0 +1,57 @@
+.payment-info {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.payment-info table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .payment-info th, .payment-info td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .payment-info th {
+    background-color: #f2f2f2;
+  }
+  
+
+  .payment-container {
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+  }
+  
+  .payment-container button {
+    background-color: #f2f2f2;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+
+    margin-right: 10px;
+    padding: 10px 20px;
+  }
+  
+  .payment-container button:hover {
+    background-color: #ddd;
+  }
+  
+  .payment-container button:focus {
+    outline: none;
+  }
+  
+  .payment-container div {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .payment-container #Plan {
+    font-weight: bold;
+  }
+  
